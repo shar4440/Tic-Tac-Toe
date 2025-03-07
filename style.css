@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  text-align: center;
+}
+.cont{
+  width: 480px;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: 10px;
+  background-color: rgb(194, 114, 16);
+  margin-top: 30px;
+  margin-left: 530px;
+  border-radius: 5px;
+  border: none;
+}
+.box{
+  width: 450px;
+  height: 450px;
+
+  margin: 20px;
+}
+.reset{
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(50, 50, 17);
+  color:whitesmoke;
+  border: none;
+  border-radius: 4px;
+  margin-left: 700px;
+
+  cursor: pointer;
+}
+.btn{
+  width: 100px;
+  height: 100px;
+  gap: 5px;
+  margin: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  border: none;
+  background-color: whitesmoke;
+  color: black;
+}
+.div{
+  height: 130px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+#winDiv-hide{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+#newGame {
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+}
+#winMsg{
+  text-align: center;
+  font-size: 20px;
+}
+.hide{
+  display: none;
+}
+.result{
+  height: 50px;
+  width: 60%;
+  margin: 20px;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+  margin-left: 300px;
+}
